@@ -39,3 +39,10 @@
         ```
 
 The idea and information was taken from this link: https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/
+
+***
+
+- [Home](/README.md)
+- [Docker](/docker/README.md)
+- [Git](/git/README.md)
+- [Kubernetes](/k8s/README.md)

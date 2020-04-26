@@ -35,3 +35,10 @@ kubectl logs <name of pod> -f --timestamps
 ```bash
 kubectl top pods
 ```
+
+***
+
+- [Home](/README.md)
+- [Docker](/docker/README.md)
+- [Git](/git/README.md)
+- [Kubernetes](/k8s/README.md)
