@@ -1,34 +1,29 @@
 # Kubernetes
 
-## How to remove all the node of a cluster
+- [Administrate cluster](./admin.md)
+- [Pods](./pod.md)
+- [Services](./svc.md)
 
-0. Check if you ip was on "Master authorised networks" on k8s cluster. 
+## Add and enable bash autocompletion for kubectl
 
-    - Click edit on cluster.
-    - Check the "Master authorised networks".
+    ```bash
+    source <(kubectl completion bash)
+    ```
 
-1. First point to right k8s cluster
+## Apply one configuration yaml
 
-```bash
-gcloud container clusters get-credentials <cluster name> --zone <gcp region> --project <gcp project>
-```
+    ```bash
+    kubectl apply -f <yaml file>
+    ```
 
-2. Get the list of nodes.
+## Get cluster info
 
-```bash
-kubectl get nodes
-```
+    ```bash
+    kubectl cluster-info
+    ```
 
-3. Drain/disable each node of cluster.
+## See kubectl configuration
 
-```bash
-kubectl drain <node name>
-kubectl drain <node name> --ignore-daemonsets
-```
-
-4. Delete fisically each node.
-
-```bash
-kubectl delete node <node name>
-```
-
+    ```bash
+    kubectl config view
+    ```
