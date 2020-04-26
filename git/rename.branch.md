@@ -20,19 +20,19 @@
         git branch -m new-name
         ```
 
-    1. (alternative) If you are on a different branch:
-        
+    2. (alternative) If you are on a different branch:
+
         ```bash
         git branch -m old-name new-name
         ```
 
-    2. Change the remote branch name and push the new-name of local branch.
+    3. Change the remote branch name and push the new-name of local branch.
 
         ```bash
         git push origin :old-name new-name
         ```
 
-    3. Push all the changes to remote repository:
+    4. Push all the changes to remote repository:
 
         ```bash
         git push origin -u new-name
