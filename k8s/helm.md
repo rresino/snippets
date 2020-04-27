@@ -41,9 +41,9 @@
 
 ## How to uninstall Helm
 
-    ```bash
-    helm reset
-    ```
+```bash
+helm reset
+```
 
 ***
 
