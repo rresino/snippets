@@ -3,6 +3,7 @@
 - [Administrate cluster](./admin.md)
 - [Pods](./pod.md)
 - [Services](./svc.md)
+- [Heml](./helm.md)
 
 ## Add and enable bash autocompletion for kubectl
 
