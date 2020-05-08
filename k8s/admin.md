@@ -56,6 +56,12 @@ kubectl config use-context <context ID>
 kubectl config current-context
 ```
 
+## Connect to cluster master node
+
+```bash
+kubectl exec -it <cluster name> /bin/bash
+```
+
 ***
 
 - [Home](/README.md)
