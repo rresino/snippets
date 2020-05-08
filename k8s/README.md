@@ -4,6 +4,7 @@
 - [Pods](./pod.md)
 - [Services](./svc.md)
 - [Heml](./helm.md)
+- [Minikube](./minikube.md)
 
 ## Add and enable bash autocompletion for kubectl
 
