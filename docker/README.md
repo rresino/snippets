@@ -51,6 +51,25 @@ docker cp <container id>:<container directory> <file>
 docker cp <file> <container id>:<container directory>
 ```
 
+## Export / import docker image 
+
+```bash
+docker save -o <path for generated tar file> <image name>
+docker load -i <path to image tar file>
+```
+
+## Connect to runnning container (sh)
+
+```bash
+docker exec -it <container name> sh
+```
+
+## List all the names of containers 
+
+```bash
+docker container ls -a --format="{{ json .Names }}"
+```
+
 ***
 
 - [Home](/README.md)
