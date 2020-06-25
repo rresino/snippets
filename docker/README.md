@@ -70,6 +70,19 @@ docker exec -it <container name> sh
 docker container ls -a --format="{{ json .Names }}"
 ```
 
+## Retag or add a new tag to one image
+
+```bash
+docker tag <source tag or hash> <new tag>
+```
+
+## How to list all the disk consumption 
+
+```bash
+find /var/lib/docker/ -name "*.log" -exec ls -sh {} \; | sort -n -r | head -20
+du -aSh /var/lib/docker/ | sort -n -r | head -n 10
+```
+
 ***
 
 - [Home](/README.md)
