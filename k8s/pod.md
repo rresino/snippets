@@ -16,6 +16,7 @@ kubectl describe pod <pod name>
 
 ```bash
 kubectl exec -it <pod name> /bin/bash
+kubectl exec -it <pod name> -- /bin/bash
 ```
 
 ## Copy file inside a pod
