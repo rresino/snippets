@@ -79,6 +79,7 @@ docker tag <source tag or hash> <new tag>
 ## How to list all the disk consumption 
 
 ```bash
+docker system df
 find /var/lib/docker/ -name "*.log" -exec ls -sh {} \; | sort -n -r | head -20
 du -aSh /var/lib/docker/ | sort -n -r | head -n 10
 ```
