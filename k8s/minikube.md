@@ -36,6 +36,13 @@ If minikube don't clean the tunnel network, you can force the clean up using:
 minikube tunnel --cleanup
 ```
 
+## Get minikube cluster ip
+
+```bash
+minikube ip
+minikube ip -n minikube
+```
+
 ***
 
 - [Home](/README.md)

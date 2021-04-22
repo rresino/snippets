@@ -84,6 +84,32 @@ find /var/lib/docker/ -name "*.log" -exec ls -sh {} \; | sort -n -r | head -20
 du -aSh /var/lib/docker/ | sort -n -r | head -n 10
 ```
 
+## How to see docker container process
+
+```bash
+docker top <container hash>
+```
+
+## How to see docker service events
+
+```bash
+docker events
+```
+
+## How to updated files of docker after creation
+
+```bash
+docker diff <container hash>
+```
+
+## How to see all the steps of a Docker image creation
+
+```bash
+docker history <image hash>
+```
+
+
+
 ***
 
 - [Home](/README.md)
